@@ -105,7 +105,7 @@ const projects = {
   "portfolio-website": {
     title: "Portfolio Website",
     category: "Full Stack Development",
-    image: "proj-photos/portfolio1.png",
+    image: "proj-photos/portfolio/github.png",
     description: "A modern, interactive portfolio website featuring smooth animations, dynamic content management, and a responsive design. Built with React frontend and Node.js backend to showcase full-stack development capabilities.",
     shortDescription: "An interactive portfolio showcasing full-stack development skills with modern design and smooth animations.",
     technologies: ["React", "Node.js", "MongoDB", "Express", "CSS3", "JavaScript"],
