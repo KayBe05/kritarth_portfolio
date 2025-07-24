@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Kritarth's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Nunito:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Get in touch with Kritarth Bijalwann - Creative Developer">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Kay<span>Be</span></a>
+                <ul class="nav-menu">
+                    <li class="nav-item" role="none"><a href="index.html#hero" class="nav-link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav-item" role="none"><a href="index.html#about" class="nav-link"
+                            role="menuitem">About</a></li>
+                    <li class="nav-item" role="none"><a href="index.html#projects" class="nav-link"
+                            role="menuitem">Projects</a></li>
+                    <li class="nav-item" role="none"><a href="contact.html" class="nav-link active"
+                            role="menuitem">Contact</a></li>
+                </ul>
+                <div class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Banner -->
+    <section id="contact-banner" class="section-small" style="padding-top: 150px;">
+        <div class="container">
+            <a href="index.html#about" class="back-link"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+        </div>
+        <div class="page-header">
+            <h1 class="section-title">Get In <span>Touch</span></h1>
+            <p>I'd love to hear about your project and how I can help bring your ideas to life.</p>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="section-small">
+        <div class="container">
+            <div class="contact-methods">
+                <a href="mailto:kritarth.bijalwann@gmail.com" class="contact-method" tabindex="0">
+                    <div class="method-icon-container">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </div>
+                    <h4>Email Me</h4>
+                    <p>The fastest way to get a response from me</p>
+                    <div class="method-hover-effect">
+                        <span class="click-action">Click to start</span>
+                    </div>
+                </a>
+                <a href="https://github.com/KayBe05" target="_blank" class="contact-method" tabindex="0">
+                    <div class="method-icon-container">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h4>GitHub</h4>
+                    <p>Checkout The Projects</p>
+                    <div class="method-hover-effect">
+                        <span class="click-action">Click to start</span>
+                    </div>
+                </a>
+                <a href="http://www.linkedin.com/in/kritarth-bijalwann-b38a07282" target="_blank" class="contact-method"
+                    tabindex="0">
+                    <div class="method-icon-container">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h4>Connect on LinkedIn</h4>
+                    <p>Let's expand our professional network</p>
+                    <div class="method-hover-effect">
+                        <span class="click-action">Click to start</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+
+            <div class="contact-container">
+                <div class="contact-information">
+                    <h3>Let's Discuss Your Project</h3>
+                    <p>I'm always excited to collaborate on new opportunities and innovative
+                        ideas. Whether you have a specific project in mind or just want to explore possibilities, I'm
+                        here to help turn your vision into reality.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>Dehradun, UK</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <span>kritarth.bijalwann@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-phone-alt"></i></span>
+                            <span>+91 999.....48</span>
+                        </div>
+                    </div>
+                    <div class="availability">
+                        <h4>Current Availability</h4>
+                        <div class="availability-status available">
+                            <span class="status-dot"></span>
+                            <span>Open to Freelance/Internships</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <input type="text" id="name" required placeholder="Your Name">
+                                <label for="name">Your Name*</label>
+                                <div class="error-message">Please enter your name</div>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email" required placeholder="Your Email">
+                                <label for="email">Your Email*</label>
+                                <div class="error-message">Please enter a valid email</div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" required placeholder="Your Message"></textarea>
+                            <label for="message">Your Message*</label>
+                            <div class="error-message">Please enter your message</div>
+                        </div>
+                        <div class="form-footer">
+                            <div class="privacy-text">Your information will never be shared with third parties.</div>
+                            <button type="submit" class="btn btn-submit">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </div>
+                        <div id="successMessage" class="success-message">
+                            <i class="fas fa-check-circle" style="margin-right: 10px;"></i>
+                            Thank you! Your message has been sent successfully. I'll get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="section-small">
+        <div class="container">
+            <h3 class="map-section-title">Find Me Here <i class="fas fa-map-marker-alt pulse"></i></h3>
+            <div class="map-wrapper">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110125.16651489247!2d77.96812189554115!3d30.325835936953857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1619530709421!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-overlay">
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+                        <div class="location-info">
+                            <h4>Dehradun, Uttarakhand</h4>
+                            <p>Currently available for local and remote opportunities</p>
+                            <a href="https://goo.gl/maps/XYZ123" class="directions-link" target="_blank">
+                                <i class="fas fa-directions"></i> Get directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h5>Remote Collaboration</h5>
+                        <p>Available for remote work worldwide</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h5>In-Person Meetings</h5>
+                        <p>Available for local consultations</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h5>Video Conferencing</h5>
+                        <p>Schedule a virtual meeting anytime</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional CTA - Updated -->
+    <section class="section-small">
+        <div class="container">
+            <div class="additional-cta">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+
+                <div class="cta-container">
+                    <div class="cta-content">
+                        <h3>Need a Developer for Your <span>Team</span>?</h3>
+                        <p>I'm currently open to internship and freelance opportunities. If you're looking for a
+                            dedicated developer to join your team, let's discuss how I can contribute to your project's
+                            success.</p>
+
+                        <div class="cta-features">
+                            <div class="cta-feature">
+                                <div class="feature-check">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <span>Custom Web Development</span>
+                            </div>
+                            <div class="cta-feature">
+                                <div class="feature-check">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <span>Flexible Collaboration</span>
+                            </div>
+                        </div>
+
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i> Let's Talk
+                            </a>
+                            <a href="index.html#skills" class="btn btn-outline">
+                                <i class="fas fa-code"></i> View My Skills
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cta-illustration">
+                        <div class="cta-graphic">
+                            <div class="icon-container">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>About Me</h3>
+                    <p>Transforming innovative ideas into stunning digital experiences with modern web technologies.
+                        Aspiring Cloud Computing and Web Development enthusiast.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/kritarthbijalwann10/" class="social-link"
+                            aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/kritarth-bijalwann-b38a07282" class="social-link"
+                            aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/KayBe05" class="social-link" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kritarth.bijalwann@gmail.com" style="color: white;">kritarth.bijalwann@gmail.com</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 999.....48</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Dehradun, UK</span>
+                    </div>
+                    <a href="contact.html" class="btn btn-outline" style="margin-top: 15px;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Kritarth Bijalwann. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile Navigation Toggle
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            if (hamburger) {
+                hamburger.addEventListener('click', function () {
+                    hamburger.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+
+                    // Update ARIA attributes
+                    const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
+                    hamburger.setAttribute('aria-expanded', !expanded);
+                });
+            }
+
+            // Close mobile menu when clicking on a nav link
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Form validation
+            const contactForm = document.getElementById('contactForm');
+            const successMessage = document.getElementById('successMessage');
+
+            if (contactForm) {
+                // Input focus effects
+                const inputs = contactForm.querySelectorAll('input, textarea');
+
+                inputs.forEach(input => {
+                    // Auto-focus label if field has value on page load
+                    if (input.value.trim() !== '') {
+                        input.classList.add('has-value');
+                    }
+
+                    // Handle input events
+                    input.addEventListener('focus', function () {
+                        this.parentElement.classList.add('focused');
+                    });
+
+                    input.addEventListener('blur', function () {
+                        this.parentElement.classList.remove('focused');
+
+                        // Validate on blur
+                        validateField(this);
+                    });
+
+                    input.addEventListener('input', function () {
+                        if (this.parentElement.classList.contains('error')) {
+                            validateField(this);
+                        }
+                    });
+                });
+
+                // Form validation function
+                function validateField(field) {
+                    const parent = field.parentElement;
+
+                    // Reset error state
+                    parent.classList.remove('error');
+
+                    // Required field validation
+                    if (field.hasAttribute('required') && field.value.trim() === '') {
+                        parent.classList.add('error');
+                        return false;
+                    }
+
+                    // Email validation
+                    if (field.type === 'email' && field.value.trim() !== '') {
+                        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                        if (!emailPattern.test(field.value)) {
+                            parent.classList.add('error');
+                            return false;
+                        }
+                    }
+
+                    return true;
+                }
+
+                // Form submission handling
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    // Validate all fields
+                    let isValid = true;
+                    const formFields = this.querySelectorAll('input, textarea');
+
+                    formFields.forEach(field => {
+                        if (!validateField(field)) {
+                            isValid = false;
+                        }
+                    });
+
+                    if (!isValid) {
+                        // Scroll to first error
+                        const firstError = this.querySelector('.error');
+                        if (firstError) {
+                            firstError.querySelector('input, textarea').focus();
+                        }
+                        return;
+                    }
+
+                    // Form data collection
+                    const formData = new FormData(this);
+                    const formValues = Object.fromEntries(formData.entries());
+
+                    // Show loading state on button
+                    const submitBtn = this.querySelector('.btn-submit');
+                    const originalBtnText = submitBtn.innerHTML;
+                    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                    submitBtn.disabled = true;
+
+                    // Simulate form submission (replace with actual form submission in production)
+                    setTimeout(() => {
+                        // In a real scenario, you would send this data to a server
+                        console.log('Form submitted with values:', formValues);
+
+                        // Reset form
+                        contactForm.reset();
+
+                        // Reset button
+                        submitBtn.innerHTML = originalBtnText;
+                        submitBtn.disabled = false;
+
+                        // Show success message with animation
+                        successMessage.style.display = 'block';
+
+                        // Hide success message after 5 seconds
+                        setTimeout(() => {
+                            successMessage.style.opacity = '0';
+                            successMessage.style.transform = 'translateY(-10px)';
+
+                            setTimeout(() => {
+                                successMessage.style.display = 'none';
+                                successMessage.style.opacity = '1';
+                                successMessage.style.transform = 'translateY(0)';
+                            }, 500);
+                        }, 5000);
+                    }, 1500);
+                });
+            }
+
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const target = document.querySelector(this.getAttribute('href'));
+
+                    if (target) {
+                        e.preventDefault();
+
+                        window.scrollTo({
+                            top: target.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Header scroll effect
+            const header = document.getElementById('header');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.style.padding = '5px 0';
+                    header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
+                } else {
+                    header.style.padding = '15px 0';
+                    header.style.boxShadow = '0 2px 15px rgba(0, 0, 0, 0.07)';
+                }
+            });
+
+            // Interactive contact methods
+            const contactMethods = document.querySelectorAll('.contact-method');
+
+            contactMethods.forEach(method => {
+                method.addEventListener('click', function () {
+                    // Apply active state to clicked method
+                    contactMethods.forEach(m => m.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Get the contact method title
+                    const methodTitle = this.querySelector('h4').textContent;
+
+                    // Auto-fill subject based on contact method
+                    const subjectField = document.getElementById('subject');
+
+                    if (subjectField) {
+                        switch (methodTitle) {
+                            case 'Email Me':
+                                subjectField.value = 'General Inquiry';
+                                break;
+                            case 'Call Me':
+                                subjectField.value = 'Phone Call Request';
+                                break;
+                            case 'Connect on LinkedIn':
+                                subjectField.value = 'LinkedIn Connection';
+                                break;
+                        }
+
+                        // Trigger label animation
+                        if (subjectField.value) {
+                            subjectField.classList.add('has-value');
+                        }
+                    }
+
+                    // Scroll to form
+                    document.getElementById('contact').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+
+                    // Focus first empty required field
+                    setTimeout(() => {
+                        const emptyField = document.querySelector('input[required]:not([value]), textarea[required]:not(:filled)');
+                        if (emptyField) {
+                            emptyField.focus();
+                        }
+                    }, 800);
+                });
+            });
+        });
+    </script>
+    <script src="js/main.js"></script>
+
+</body>

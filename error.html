@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Kritarth's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Nunito:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/error.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Page Not Found - Kritarth's Portfolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Kay<span>Be</span></a>
+                <ul class="nav-menu" role="menubar">
+                    <li class="nav-item" role="none"><a href="index.html#hero" class="nav-link" role="menuitem">Home</a></li>
+                    <li class="nav-item" role="none"><a href="index.html#portfolio" class="nav-link" role="menuitem">Projects</a></li>
+                    <li class="nav-item" role="none"><a href="index.html#certifications" class="nav-link" role="menuitem">Certifications</a></li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Error Section -->
+    <section id="error" class="section">
+        <div class="container">
+            <div class="error-content">
+                <div class="error-animation">
+                    <div class="error-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="error-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                </div>
+                
+                <div class="error-text">
+                    <h1 class="error-title">
+                        <span class="error-code">404</span>
+                        <br>Page Not Found
+                    </h1>
+                    <p class="error-subtitle">
+                        Oops! The page you're looking for seems to have wandered off into the digital void. 
+                        Don't worry, even the best developers encounter broken links sometimes.
+                    </p>
+                    
+                    <div class="error-details">
+                        <p><strong>What happened?</strong></p>
+                        <ul>
+                            <li><i class="fas fa-times-circle"></i> The page might have been moved or deleted</li>
+                            <li><i class="fas fa-times-circle"></i> The URL might have been typed incorrectly</li>
+                            <li><i class="fas fa-times-circle"></i> The link you followed might be outdated</li>
+                        </ul>
+                    </div>
+
+                    <div class="error-actions">
+                        <a href="index.html" class="btn">
+                            <i class="fas fa-home"></i> Back to Home
+                        </a>
+                        <button onclick="history.back()" class="btn btn-outline">
+                            <i class="fas fa-arrow-left"></i> Go Back
+                        </button>
+                        <a href="contact.html" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Report Issue
+                        </a>
+                    </div>
+
+                    <div class="suggested-links">
+                        <h3>Popular Pages</h3>
+                        <div class="quick-links">
+                            <a href="index.html#about" class="quick-link">
+                                <i class="fas fa-user"></i>
+                                <span>About Me</span>
+                            </a>
+                            <a href="index.html#portfolio" class="quick-link">
+                                <i class="fas fa-briefcase"></i>
+                                <span>My Projects</span>
+                            </a>
+                            <a href="index.html#skills" class="quick-link">
+                                <i class="fas fa-code"></i>
+                                <span>Skills</span>
+                            </a>
+                            <a href="index.html#certifications" class="quick-link">
+                                <i class="fas fa-certificate"></i>
+                                <span>Certifications</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search Box -->
+            <div class="error-search">
+                <h3>Looking for something specific?</h3>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search for pages, projects, or skills...">
+                    <button onclick="performSearch()" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>About Me</h3>
+                    <p>Transforming innovative ideas into stunning digital experiences with modern web technologies.
+                        Aspiring Cloud Computing and Web Development enthusiast.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/kritarthbijalwann10/" class="social-link"
+                            aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/kritarth-bijalwann-b38a07282" class="social-link"
+                            aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/KayBe05" class="social-link" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#hero"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="index.html#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                        <li><a href="index.html#portfolio"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="index.html#certifications"><i class="fas fa-chevron-right"></i> Certifications</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kritarth.bijalwann@gmail.com"
+                            style="color: white;">kritarth.bijalwann@gmail.com</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 999.....48</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Dehradun, UK</span>
+                    </div>
+                    <a href="contact.html" class="btn btn-outline" style="margin-top: 15px;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Kritarth Bijalwann. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/error.js">  
+    </script>
+
+</body>
+</html>

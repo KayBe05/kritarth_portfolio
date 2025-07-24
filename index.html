@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritarth's Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Nunito:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description"
+        content="Kritarth - Creative Developer Portfolio showcasing web development, UI/UX design, and mobile-first solutions">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#header" class="logo">Kay_<span>Be</span></a>
+                <ul class="nav-menu" role="menubar">
+                    <li class="nav-item" role="none"><a href="#hero" class="nav-link active" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav-item" role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                    <li class="nav-item" role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                    <li class="nav-item" role="none"><a href="#experience" class="nav-link"
+                            role="menuitem">Experience</a></li>
+                    <li class="nav-item" role="none"><a href="#education" class="nav-link" role="menuitem">Education</a>
+                    </li>
+                    <li class="nav-item" role="none"><a href="#portfolio" class="nav-link" role="menuitem">Projects</a>
+                    </li>
+                    <li class="nav-item" role="none"><a href="#certifications" class="nav-link"
+                            role="menuitem">Certifications</a></li>
+                </ul>
+                <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span>Kritarth</span><br>Creative Developer</h1>
+                <p class="hero-subtitle">Transforming innovative ideas into stunning digital experiences with modern web
+                    technologies</p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn">
+                        <i class="fas fa-eye"></i> View My Work
+                    </a>
+                    <a href="contact.html" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="kb.png" alt="Profile Photo" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <h3>I'm a Passionate Software Developer</h3>
+
+                    <div class="about-text-item">
+                        <div class="about-text-content">
+                            <p>Aspiring Cloud Computing and Web Development enthusiast with a strong foundation in
+                                project management, event organization, and technical execution.</p>
+                            <p>Experienced in hosting cybersecurity events, developing cloud based solutions, and
+                                creating dynamic web interfaces.</p>
+                            <p>When I'm not coding, you can find me exploring new design trends, photographing
+                                landscapes, or enjoying a good book.</p>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> APIs</span>
+                        <span class="skill-tag"><i class="fas fa-paint-brush"></i> UI/UX Design</span>
+                        <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+                        <span class="skill-tag"><i class="fab fa-wordpress"></i> WordPress</span>
+                    </div>
+
+                    <div class="cta-container">
+                        <a href="contact.html" class="btn">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="https://drive.google.com/file/d/1cIw0T11MYFaJXWE1C4rsW-xAUHEInOEt/view?usp=sharing"
+                            class="btn btn-outline-dark" target="_blank">
+                            <i class="fas fa-download"></i> View My Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="category-title">Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-html5 skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">HTML5</h4>
+                            <div class="skill-level-text">Advanced</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 95%;" data-value="95%">
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-css3-alt skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">CSS3</h4>
+                            <div class="skill-level-text">Advanced</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 90%;" data-value="90%">
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-js skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">JavaScript</h4>
+                            <div class="skill-level-text">Proficient</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 85%;" data-value="85%">
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fab fa-aws skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">AWS</h4>
+                            <div class="skill-level-text">Proficient</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 80%;" data-value="80%">
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-cloud skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">Cloud Computing</h4>
+                            <div class="skill-level-text">Intermediate</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 75%;" data-value="75%">
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-server skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">APIs</h4>
+                            <div class="skill-level-text">Intermediate</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 70%;" data-value="70%">
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">Soft Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-users skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">Teamwork</h4>
+                            <div class="skill-level-text">Expert</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 95%;" data-value="95%">
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-tasks skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">Project Management</h4>
+                            <div class="skill-level-text">Advanced</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 90%;" data-value="90%">
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-comment-dots skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">Communication</h4>
+                            <div class="skill-level-text">Advanced</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 90%;" data-value="90%">
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-brain skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">Problem Solving</h4>
+                            <div class="skill-level-text">Proficient</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 85%;" data-value="85%">
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-lightbulb skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">Creativity</h4>
+                            <div class="skill-level-text">Advanced</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 88%;" data-value="88%">
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper">
+                                <i class="fas fa-clock skill-icon"></i>
+                            </div>
+                            <h4 class="skill-name">Time Management</h4>
+                            <div class="skill-level-text">Proficient</div>
+                            <div class="skill-bar-container">
+                                <div class="skill-level" style="width: 82%;" data-value="82%">
+                                    <span class="skill-percentage">82%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            April 2025 - Present
+                        </div>
+                        <h3 class="timeline-title">
+                            <i class="fas fa-user-tie"></i>
+                            Student Placement Coordinator
+                        </h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Placement Cell, MUJ
+                        </h4>
+                        <p class="timeline-description">
+                            Coordinating between students and the placement cell, facilitating communication with
+                            recruiters, organizing placement drives, and ensuring smooth execution of placement-related
+                            activities.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            May 2024 - May 2025
+                        </div>
+                        <h3 class="timeline-title">
+                            <i class="fas fa-users-cog"></i>
+                            Deputy Head Programs
+                        </h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-shield-alt"></i>
+                            Cyber Space Club, MUJ
+                        </h4>
+                        <p class="timeline-description">
+                            End-to-end planning and execution of events were undertaken, involving ideation,
+                            coordination, resource management, and on-ground operations to ensure smooth and impactful
+                            delivery.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            Aug 2023 - May 2024
+                        </div>
+                        <h3 class="timeline-title">
+                            <i class="fas fa-tasks"></i>
+                            Junior Coordinator
+                        </h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-shield-alt"></i>
+                            Cyber Space Club, MUJ
+                        </h4>
+                        <p class="timeline-description">
+                            Actively supported the planning and execution of various events, managing logistics,
+                            registrations, and on-ground coordination.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="portfolio-grid">
+                <!-- YouTube Clone Project -->
+                <div class="portfolio-item" data-category="frontend">
+                    <img src="proj-photos/youtube/youtube-github.png" alt="Youtube Clone" class="portfolio-image"
+                        loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-play-circle portfolio-category-icon"></i>
+                        <h3 class="portfolio-title">Youtube Clone</h3>
+                        <p class="portfolio-category">Frontend Development</p>
+                        <a href="project.html?id=youtube-clone" class="portfolio-btn">
+                            View <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website Project -->
+                <div class="portfolio-item" data-category="fullstack">
+                    <img src="proj-photos/portfolio/hero.png" alt="Portfolio Website" class="portfolio-image"
+                        loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-user portfolio-category-icon"></i>
+                        <h3 class="portfolio-title">Portfolio Website</h3>
+                        <p class="portfolio-category">Full Stack Development</p>
+                        <a href="project.html?id=portfolio-website" class="portfolio-btn">
+                            View <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- E-commerce Platform Project -->
+                <div class="portfolio-item" data-category="fullstack">
+                    <img src="proj-photos/ecommerce1.png" alt="E-commerce Platform" class="portfolio-image"
+                        loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-shopping-cart portfolio-category-icon"></i>
+                        <h3 class="portfolio-title">E-commerce Platform</h3>
+                        <p class="portfolio-category">Full Stack Development</p>
+                        <a href="project.html?id=ecommerce-app" class="portfolio-btn">
+                            View <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Keep your existing projects but update their links -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="proj-photos/diaps/diaps-landing.png" alt="Disaster Management" class="portfolio-image"
+                        loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-exclamation-triangle portfolio-category-icon"></i>
+                        <h3 class="portfolio-title">Disaster Management</h3>
+                        <p class="portfolio-category">Web Design</p>
+                        <a href="https://github.com/KayBe05/disaster-management" class="portfolio-btn" target="_blank">
+                            View <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cloud Collab Platform - Add to JavaScript or link externally -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="proj-photos/cloud-collab/cloud-collab-github.png" alt="Cloud Collab Platform"
+                        class="portfolio-image" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-users portfolio-category-icon"></i>
+                        <h3 class="portfolio-title">Cloud Collab Platform</h3>
+                        <p class="portfolio-category">Cloud Computing</p>
+                        <a href="#" class="portfolio-btn">
+                            View <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Banking Dashboard - Add to JavaScript or link externally -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="/api/placeholder/600/400" alt="Banking Dashboard" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <i class="fas fa-chart-line portfolio-category-icon"></i>
+                        <h3 class="portfolio-title">Banking Dashboard</h3>
+                        <p class="portfolio-category">API Integration</p>
+                        <a href="oh.html" class="portfolio-btn">
+                            View <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="btn-container">
+                <button id="showAllProjectsBtn" class="show-all-btn">
+                    Show All Projects <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <div id="projectsPopup" class="projects-popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2 class="popup-title">All My <span>Projects</span></h2>
+                <button class="popup-close" id="closePopup" aria-label="Close popup">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="popup-projects-grid" id="popupProjectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Educational <span>Journey</span></h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <div class="education-left">
+                        <div class="education-icon-wrapper">
+                            <i class="fas fa-graduation-cap education-icon"></i>
+                        </div>
+                        <div class="education-year">2023 - Present</div>
+                    </div>
+                    <div class="education-right">
+                        <h3 class="education-degree">Bachelor of Technology in Information Technology</h3>
+                        <h4 class="education-school">
+                            <i class="fas fa-university school-icon"></i>
+                            Manipal University Jaipur, Jaipur
+                        </h4>
+                        <p class="education-description">Focusing on cloud computing, web development, and cybersecurity
+                            with specialized coursework in distributed systems and network security.</p>
+                        <div class="education-stats">
+                            <i class="fas fa-award stat-icon"></i>
+                            <span class="stat-text">Current GPA: 8.49/10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-left">
+                        <div class="education-icon-wrapper">
+                            <i class="fas fa-school education-icon"></i>
+                        </div>
+                        <div class="education-year">2008 - 2022</div>
+                    </div>
+                    <div class="education-right">
+                        <h3 class="education-degree">Higher Secondary Education</h3>
+                        <h4 class="education-school">
+                            <i class="fas fa-building school-icon"></i>
+                            The Heritage School, Dehradun
+                        </h4>
+                        <p class="education-description">Specialized in Mathematics, Physics with Computer Applications.
+                            Participated in various tech competitions and programming olympiads.</p>
+                        <div class="education-stats">
+                            <i class="fas fa-medal stat-icon"></i>
+                            <span class="stat-text">Graduated with 94% score</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span>Certifications</span></h2>
+            <div class="certifications-container">
+
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 class="certification-title">AWS Certified Cloud Practitioner</h3>
+                        <p class="certification-issuer">Amazon Web Services</p>
+                        <p class="certification-date">February 2025</p>
+                        <a href="https://coursera.org/verify/MRG45W7444AV" target="_blank" class="btn-small">Verify
+                            Certificate</a>
+                    </div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 class="certification-title">Programming in Python</h3>
+                        <p class="certification-issuer">Meta</p>
+                        <p class="certification-date">December 2024</p>
+                        <a href="https://coursera.org/verify/LC78EL54W7T2" target="_blank" class="btn-small">Verify
+                            Certificate</a>
+                    </div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 class="certification-title">Version Control</h3>
+                        <p class="certification-issuer">Meta</p>
+                        <p class="certification-date">January 2025</p>
+                        <a href="https://coursera.org/verify/QIZAMOHY0N5A" target="_blank" class="btn-small">Verify
+                            Certificate</a>
+                    </div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 class="certification-title">Chemical Hazards and Process Safety</h3>
+                        <p class="certification-issuer">UC Davis</p>
+                        <p class="certification-date">April 2025</p>
+                        <a href="https://coursera.org/verify/specialization/HK91KMNA3O1Z" target="_blank"
+                            class="btn-small">Verify Certificate</a>
+                    </div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 class="certification-title">Developing Cloud Applications using Python</h3>
+                        <p class="certification-issuer">AWS</p>
+                        <p class="certification-date">April 2025</p>
+                        <a href="#" target="_blank" class="btn-small">Verify Certificate</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>About Me</h3>
+                    <p>Transforming innovative ideas into stunning digital experiences with modern web technologies.
+                        Aspiring Cloud Computing and Web Development enthusiast.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/kritarthbijalwann10/" class="social-link"
+                            aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/kritarth-bijalwann-b38a07282" class="social-link"
+                            aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/KayBe05" class="social-link" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="#certifications"><i class="fas fa-chevron-right"></i> Certifications</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kritarth.bijalwann@gmail.com"
+                            style="color: white;">kritarth.bijalwann@gmail.com</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 999.....48</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Dehradun, UK</span>
+                    </div>
+                    <a href="contact.html" class="btn btn-outline" style="margin-top: 15px;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Kritarth Bijalwann. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
