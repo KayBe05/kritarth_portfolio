@@ -119,7 +119,6 @@ const projects = {
     ],
     github: "https://github.com/yourusername/portfolio-website",
     demo: "https://your-portfolio-demo.com",
-    // Additional data for new sections
     timeline: [
       { phase: "Design & Planning", duration: "Week 1", description: "UI/UX design and project architecture planning" },
       { phase: "Frontend Development", duration: "Week 2-3", description: "React components and responsive design implementation" },
@@ -183,7 +182,7 @@ export const ThemeProvider = ({ children }) => {
     ],
     relatedProjects: [
       { id: "youtube-clone", title: "YouTube Clone", image: "proj-photos/youtube/youtube-github.png" },
-      { id: "ecommerce-app", title: "E-commerce Platform", image: "proj-photos/ecommerce1.png" }
+      { id: "todoApp", title: "Dynamic To-Do App", image: "proj-photos/to-do-app/home.png" }
     ]
   },
 
@@ -272,7 +271,127 @@ const createPaymentIntent = async (amount, currency = 'usd') => {
       { id: "youtube-clone", title: "YouTube Clone", image: "proj-photos/youtube.png" },
       { id: "portfolio-website", title: "Portfolio Website", image: "proj-photos/portfolio1.png" }
     ]
+  },
+
+  "todoApp": {
+    title: "Dynamic To-Do App",
+    category: "Frontend Web Development",
+    image: "proj-photos/to-do-app/github.png",
+    description: "A dynamic and interactive To-Do list application that allows users to add, edit, complete, delete, and filter tasks in a visually engaging UI. Built using vanilla JavaScript, HTML5, and CSS3 with smooth UI transitions and localStorage persistence.",
+    shortDescription: "A clean, interactive To-Do app with animations, filters, and persistent storage using vanilla JS.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "localStorage"],
+    features: [
+      "Add new tasks",
+      "Mark tasks as completed",
+      "Edit existing tasks inline",
+      "Delete tasks",
+      "Filter tasks (All / Active / Completed)",
+      "Clear all completed tasks",
+      "Persistent storage using localStorage",
+      "Responsive and animated UI"
+    ],
+    github: "https://github.com/KayBe05/Dynamic-To-Do-APP",
+    demo: "https://kaybe05.github.io/Dynamic-To-Do-APP/",
+    timeline: [
+      {
+        phase: "Planning & Design",
+        duration: "1 Week",
+        description: "Designed UI layout and defined app behavior"
+      },
+      {
+        phase: "Core Development",
+        duration: "2 Week",
+        description: "Implemented add/edit/delete tasks and state filtering"
+      },
+      {
+        phase: "UI Enhancements",
+        duration: "1 Week",
+        description: "Added animations, icons, and refined responsive styles"
+      }
+    ],
+    challenges: [
+      {
+        problem: "Inline editing of tasks without breaking event bindings",
+        solution: "Used DOM manipulation and event delegation to dynamically attach input handlers"
+      },
+      {
+        problem: "Persisting complex task state (editing, completion) across refresh",
+        solution: "Used structured localStorage JSON objects and state syncing logic"
+      }
+    ],
+    metrics: [
+      {
+        label: "Performance Score",
+        value: "100",
+        description: "Lighthouse performance rating"
+      },
+      {
+        label: "Accessibility",
+        value: "96",
+        description: "Based on semantic tags and contrast use"
+      },
+      {
+        label: "Load Time",
+        value: "0.4s",
+        description: "Instant load due to static hosting"
+      }
+    ],
+    codeSnippets: [
+      {
+        title: "Task Object LocalStorage Management",
+        language: "javascript",
+        code: "function updateLocalStorage(tasks) {\n  localStorage.setItem(\"tasks\", JSON.stringify(tasks));\n}\n\nfunction getTasksFromLocalStorage() {\n  return JSON.parse(localStorage.getItem(\"tasks\")) || [];\n}"
+      }
+    ],
+    gallery: [
+      {
+        image: "proj-photos/to-do-app/home.png",
+        caption: "Main interface"
+      },
+      {
+        image: "proj-photos/to-do-app/editing.png",
+        caption: "Editing tasks inline"
+      },
+      {
+        image: "proj-photos/to-do-app/filters.png",
+        caption: "Filter controls"
+      }
+    ],
+    architecture: {
+      layers: [
+        {
+          name: "HTML Structure",
+          description: "Defines layout with semantic elements"
+        },
+        {
+          name: "CSS Styling",
+          description: "Custom styling, animations, and responsiveness"
+        },
+        {
+          name: "JavaScript Logic",
+          description: "Handles task CRUD, filtering, and localStorage persistence"
+        }
+      ]
+    },
+    lessons: [
+      "Vanilla JS can effectively handle dynamic UI interactions without frameworks",
+      "localStorage is powerful for lightweight app persistence",
+      "Well-structured modular code improves readability and maintenance"
+    ],
+    relatedProjects: [
+      {
+        id: "portfolio-website",
+        title: "Portfolio Website",
+        image: "proj-photos/portfolio/hero.png"
+      },
+      {
+        id: "calendar-planner",
+        title: "Calendar Planner App",
+        image: "proj-photos/calendar/calendar-github.png"
+      }
+    ]
   }
+
 };
 
 // Get project ID from URL

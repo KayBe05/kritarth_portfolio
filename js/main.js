@@ -348,13 +348,13 @@ const allProjects = [
     liveLink: '#',
   },
   {
-    id: 'banking-dashboard',
-    title: 'Banking Dashboard',
-    category: 'API Integration',
-    image: '/api/placeholder/600/400',
-    description: 'A modern banking dashboard with transaction management, account overview, and financial analytics.',
-    technologies: ['React', 'Chart.js', 'REST API', 'JWT Authentication'],
-    liveLink: 'oh.html',
+    id: 'todoApp',
+    title: 'Dynamic To-Do App',
+    category: 'Frontend Web Development',
+    image: 'proj-photos/to-do-app/home.png',
+    description: "A clean, interactive To-Do app with animations, filters, and persistent storage using vanilla JS.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "localStorage"],
+    liveLink: 'project.html?id=todoApp',
   },
   // Add more projects here
   {
