@@ -13,7 +13,7 @@ Showcasing my expertise in cloud computing, web development, technical project m
 - **Performance Optimizations:** Lazy loading, optimized image formats, minimal layout shifts.
 - **Contact & Consultation:** Easy-to-find contact section, open to collaboration and new opportunities.
 
-## 📁 Project Structure
+## Project Structure
 
 | Folder / File         | Description                                         |
 |-----------------------|----------------------------------------------------|
@@ -29,7 +29,7 @@ Showcasing my expertise in cloud computing, web development, technical project m
 | `style.css`           | All custom site styles, responsive and accessible.  |
 | `proj-photos/`        | Project images and assets (sample paths).           |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:**  
   HTML5, CSS3, JavaScript (Vanilla), Responsive Design  
